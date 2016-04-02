@@ -1,0 +1,11 @@
+name: TModsServerAddons_Customiser
+main: me.tmods.serveraddons.Customiser
+version: 1.32
+author: Timo Hocker
+website: http://timosmods.weebly.com
+depends:
+  - TModsServerUtils
+commands:
+  aliasCommand:
+    description: set an alias to a command
+    usage: /aliasCommand [alias] [command]
