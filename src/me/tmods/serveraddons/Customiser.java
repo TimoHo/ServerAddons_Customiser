@@ -71,7 +71,7 @@ public class Customiser extends JavaPlugin implements Listener{
 		try {
 		if (cmd.getName().equals("aliasCommand")) {
 			if (!sender.hasPermission("ServerAddons.customCommand")) {
-				sender.sendMessage(Methods.getLang("permdeny"));
+				sender.sendMessage("you don't have access to that command!");
 				return true;
 			}
 			if (args.length < 2) {

@@ -1,6 +1,6 @@
 name: TModsServerAddons_Customiser
 main: me.tmods.serveraddons.Customiser
-version: 1.32
+version: 1.33
 author: Timo Hocker
 website: http://timosmods.weebly.com
 depends:
